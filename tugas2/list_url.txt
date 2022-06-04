@@ -1,0 +1,48 @@
+======== START ::: REQUEST PDF ======== 
+ab -n 10 -c 1 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 10 -c 10 http://172.16.16.101:8889/rfc2616.pdf
+
+ab -n 50 -c 1 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 50 -c 10 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 50 -c 25 http://172.16.16.101:8889/rfc2616.pdf
+
+ab -n 100 -c 1 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 100 -c 10 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 100 -c 25 http://172.16.16.101:8889/rfc2616.pdf
+
+ab -n 500 -c 1 http://172.16.16.101:8889/rfc2616.pdf
+ab -n 500 -c 10 http://172.16.16.101:8889/rfc2616.pdf
+======== END ::: REQUEST PDF ======== 
+
+
+======== START ::: REQUEST TXT ======== 
+ab -n 10 -c 1 http://172.16.16.101:8889/testing.txt
+ab -n 10 -c 10 http://172.16.16.101:8889/testing.txt
+
+ab -n 50 -c 1 http://172.16.16.101:8889/testing.txt
+ab -n 50 -c 10 http://172.16.16.101:8889/testing.txt
+ab -n 50 -c 25 http://172.16.16.101:8889/testing.txt
+
+ab -n 100 -c 1 http://172.16.16.101:8889/testing.txt
+ab -n 100 -c 10 http://172.16.16.101:8889/testing.txt
+ab -n 100 -c 25 http://172.16.16.101:8889/testing.txt
+
+ab -n 500 -c 1 http://172.16.16.101:8889/testing.txt
+ab -n 500 -c 10 http://172.16.16.101:8889/testing.txt
+======== END ::: REQUEST TXT ======== 
+
+======== START ::: REQUEST JPG ======== 
+ab -n 10 -c 1 http://172.16.16.101:8889/pokijan.jpg
+ab -n 10 -c 10 http://172.16.16.101:8889/pokijan.jpg
+
+ab -n 50 -c 1 http://172.16.16.101:8889/pokijan.jpg
+ab -n 50 -c 10 http://172.16.16.101:8889/pokijan.jpg
+
+ab -n 100 -c 1 http://172.16.16.101:8889/pokijan.jpg
+ab -n 100 -c 10 http://172.16.16.101:8889/pokijan.jpg
+ab -n 100 -c 25 http://172.16.16.101:8889/pokijan.jpg
+
+ab -n 500 -c 1 http://172.16.16.101:8889/testing.txt
+ab -n 500 -c 10 http://172.16.16.101:8889/testing.txt
+======== END ::: REQUEST JPG ======== 
+
